@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.lblCheckIn = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblUserName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lblPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnLogIn = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -56,12 +56,12 @@
             this.lblCheckIn.TabIndex = 1;
             this.lblCheckIn.Text = "LOG-IN";
             // 
-            // textBox1
+            // lblUserName
             // 
-            this.textBox1.Location = new System.Drawing.Point(89, 74);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(124, 20);
-            this.textBox1.TabIndex = 14;
+            this.lblUserName.Location = new System.Drawing.Point(89, 74);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(124, 20);
+            this.lblUserName.TabIndex = 14;
             // 
             // label2
             // 
@@ -72,12 +72,12 @@
             this.label2.TabIndex = 15;
             this.label2.Text = "Password:";
             // 
-            // textBox2
+            // lblPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(89, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(124, 20);
-            this.textBox2.TabIndex = 16;
+            this.lblPassword.Location = new System.Drawing.Point(89, 105);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(124, 20);
+            this.lblPassword.TabIndex = 16;
             // 
             // label3
             // 
@@ -107,9 +107,9 @@
             this.ClientSize = new System.Drawing.Size(259, 203);
             this.Controls.Add(this.btnLogIn);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblUserName);
             this.Controls.Add(this.lblCheckIn);
             this.Controls.Add(this.label1);
             this.Name = "Login";
@@ -123,9 +123,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblCheckIn;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox lblUserName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox lblPassword;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnLogIn;
     }

@@ -67,9 +67,10 @@
             this.lblCheckIn.Font = new System.Drawing.Font("Bahnschrift Condensed", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCheckIn.Location = new System.Drawing.Point(199, 19);
             this.lblCheckIn.Name = "lblCheckIn";
-            this.lblCheckIn.Size = new System.Drawing.Size(143, 48);
+            this.lblCheckIn.Size = new System.Drawing.Size(117, 48);
             this.lblCheckIn.TabIndex = 0;
-            this.lblCheckIn.Text = "CHECK-IN";
+            this.lblCheckIn.Text = "CHECK-";
+            this.lblCheckIn.Click += new System.EventHandler(this.lblCheckIn_Click);
             // 
             // label1
             // 

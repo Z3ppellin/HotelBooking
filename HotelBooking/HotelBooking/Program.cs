@@ -17,8 +17,14 @@ namespace HotelBooking
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Home());
-            
+
 
         }
     }
+
+    public class OleDbConnection
+    {
+        //class for Connection for the database
+    }   
 }
+

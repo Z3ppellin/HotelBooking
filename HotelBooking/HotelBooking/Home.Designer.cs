@@ -96,41 +96,41 @@
             // newGuestToolStripMenuItem
             // 
             this.newGuestToolStripMenuItem.Name = "newGuestToolStripMenuItem";
-            this.newGuestToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.newGuestToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newGuestToolStripMenuItem.Text = "New Guest";
             // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newToolStripMenuItem.Text = "New Reservation";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(159, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
             // 
             // checkInToolStripMenuItem
             // 
             this.checkInToolStripMenuItem.Name = "checkInToolStripMenuItem";
-            this.checkInToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.checkInToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkInToolStripMenuItem.Text = "Check-In";
             // 
             // checkOutToolStripMenuItem
             // 
             this.checkOutToolStripMenuItem.Name = "checkOutToolStripMenuItem";
-            this.checkOutToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.checkOutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkOutToolStripMenuItem.Text = "Check-Out";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(159, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // reportsToolStripMenuItem
@@ -194,8 +194,9 @@
             // 
             // toolStripButton1
             // 
+            this.toolStripButton1.BackgroundImage = global::HotelBooking.Properties.Resources.images5C70RL2G;
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.Image = global::HotelBooking.Properties.Resources.images5C70RL2G;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
@@ -239,6 +240,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Highlight;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 49);
             this.pictureBox1.Name = "pictureBox1";

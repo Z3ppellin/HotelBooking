@@ -19,7 +19,14 @@ namespace HotelBooking
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(btnLogIn.Text == "")
+            string userName = lblUserName.Text;
+            string Password = lblPassword.Text;
+
+            OleDbConnection connection = new OleDbConnection();
+            connection.ConnectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\sss\Documents\Visual Studio 2010\Projects\eee1\eee1\EMP.accdb;adminId=admin;";
+            connection.Open();
+
+
         }
     }
 }

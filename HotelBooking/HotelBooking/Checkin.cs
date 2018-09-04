@@ -26,5 +26,10 @@ namespace HotelBooking
         {
 
         }
+
+        private void lblCheckIn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
